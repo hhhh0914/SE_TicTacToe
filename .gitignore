@@ -1,0 +1,32 @@
+﻿# Build and build directories
+build/
+Build/
+out/
+bin/
+obj/
+
+# Visual Studio files
+.vs/
+*.sln.ide/
+*.VC.db
+*.VC.opendb
+*.VC.Recover
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
