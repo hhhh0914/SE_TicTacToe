@@ -1,31 +1,22 @@
-﻿# Build and build directories
+﻿# Build
 build/
-Build/
 out/
 bin/
 obj/
 
-# Visual Studio files
+# Visual Studio
 .vs/
-*.sln.ide/
-*.VC.db
-*.VC.opendb
-*.VC.Recover
 *.user
 *.suo
-*.userosscache
 *.sln.docstates
 
-# Environment
-.env
-.env.local
+# Generated output
+output/
+resources/diagrams/
 
 # IDE
 .vscode/
 .idea/
-*.swp
-*.swo
-*~
 
 # OS
 .DS_Store
