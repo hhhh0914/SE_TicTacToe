@@ -13,7 +13,6 @@ public:
 
 private:
     static int minimax(Board& board, CellState currentPlayer, bool isMaximizing, int depth, CellState aiSymbol);
-    static int evaluateBoard(const Board& board, CellState aiSymbol);
     static int getRandomMove(const Board& board);
     static int getHeuristicMove(const Board& board, CellState aiSymbol);
 };

@@ -21,7 +21,6 @@ public:
     void displaySeparator() const;
 
 private:
-    void printHorizontalLine() const;
     static std::string cellToString(CellState cell);
 };
 

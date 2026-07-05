@@ -12,10 +12,6 @@ std::string ConsoleView::cellToString(CellState cell) {
     }
 }
 
-void ConsoleView::printHorizontalLine() const {
-    std::cout << "---+---+---\n";
-}
-
 void ConsoleView::displayBoard(const Board& board) const {
     clearScreen();
     std::cout << "\n";

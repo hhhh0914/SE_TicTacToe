@@ -34,6 +34,7 @@ public:
     CellState getWinner() const;
     bool isFull() const;
     bool isGameOver() const;
+    bool hasEmptyCells() const { return !isFull(); }
 
     std::vector<std::pair<int, int>> getEmptyCells() const;
 
